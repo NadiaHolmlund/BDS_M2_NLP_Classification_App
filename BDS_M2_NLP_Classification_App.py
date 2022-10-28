@@ -5,7 +5,7 @@ import pickle
 import preprocessor as prepro
 
 import spacy
-#nlp = spacy.load('en_core_web_sm')
+nlp = spacy.load('en_core_web_sm')
 
 from sklearn.pipeline import make_pipeline
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -29,7 +29,7 @@ def text_prepro(texts):
 
   clean_container = []
 
-  for text in spacy.load('en_core_web_sm').pipe(texts_clean, disable=["tagger", "parser", "ner"]):
+  for text in nlp.pipe(texts_clean, disable=["tagger", "parser", "ner"]):
 
     txt = [token.lemma_.lower() for token in text 
           if token.is_alpha 
