@@ -1,7 +1,6 @@
 pandas
 numpy
 tweet-preprocessor
-spacy
-nlp = spacy.load("en_core_web_sm")
+spacy_streamlit
 sklearn
 eli5
