@@ -1,5 +1,7 @@
-streamlitpandas
-numpypickle
+streamlit
+pandas
+numpy
+pickle
 tweet_preprocessor
 gensim
 pyLDAvis
