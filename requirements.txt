@@ -1,6 +1,6 @@
 pandas
 numpy
-spacy
 sklearn
 eli5
 tweet-preprocessor
+spacy
