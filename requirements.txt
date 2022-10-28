@@ -1,7 +1,6 @@
 pandas
 numpy
-sklearn
-eli5
 tweet-preprocessor
 spacy
-pickle
+sklearn
+eli5
