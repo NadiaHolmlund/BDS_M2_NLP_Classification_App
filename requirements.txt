@@ -2,6 +2,6 @@ pandas
 numpy
 tweet-preprocessor
 spacy
-python3 -m spacy download en_core_web_md
+spacy download en_core_web_sm
 sklearn
 eli5
