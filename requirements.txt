@@ -2,6 +2,5 @@ pandas
 numpy
 tweet-preprocessor
 spacy
-en_core_web_sm
 sklearn
 eli5
