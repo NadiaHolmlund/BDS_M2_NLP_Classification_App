@@ -5,13 +5,14 @@ import pickle
 import preprocessor as prepro
 
 import spacy
-nlp = spacy.load('en_core_web_sm')
 
 from sklearn.pipeline import make_pipeline
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 
 import eli5
+
+nlp = spacy.load('en_core_web_sm')
 
 st.set_page_config(
     page_title="Pol-Finder 🔍",
