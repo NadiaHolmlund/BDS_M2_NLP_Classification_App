@@ -2,10 +2,3 @@ streamlit
 pandas
 numpy
 pickle
-tweet_preprocessor
-gensim
-pyLDAvis
-preprocessor
-spacy
-sklearn
-eli5
