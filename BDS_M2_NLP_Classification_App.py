@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 import preprocessor as prepro
 
-import spacy
+import spacy_streamlit
 nlp = spacy.load('en_core_web_sm')
 
 from sklearn.pipeline import make_pipeline
