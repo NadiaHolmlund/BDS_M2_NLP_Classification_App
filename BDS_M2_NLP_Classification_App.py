@@ -4,8 +4,12 @@ import numpy as np
 import pickle
 import preprocessor as prepro
 
-import spacy_streamlit as spacy
-nlp = spacy.load('en_core_web_sm')
+import spacy_streamlit
+nlp = ["en_core_web_sm", "en_core_web_md"]
+
+
+#import spacy_streamlit as spacy
+#nlp = spacy.load('en_core_web_sm')
 
 from sklearn.pipeline import make_pipeline
 from sklearn.feature_extraction.text import TfidfVectorizer
