@@ -1,1 +1,10 @@
 streamlit
+pandas
+numpy
+pickle
+tweet-preprocessor
+spacy
+sklearn
+eli5
+gensim
+pyLDAvis
