@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
-import preprocessor as prepro
+#import preprocessor as prepro
 
 import spacy
 nlp = spacy.load('en_core_web_sm')
